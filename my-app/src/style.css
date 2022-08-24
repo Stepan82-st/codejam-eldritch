@@ -15,3 +15,18 @@ img {
   width: 90vw;
   max-width: 256px;
 }
+* {
+  box-sizing: border-box;
+}
+body{
+  max-width: 1920px;
+}
+.conteiner{
+  max-width: 1920px;
+  height: 1080px;
+  background: url('./assets/home.png');
+  margin: 0 auto;
+}
+.leave-one{
+width: 100px;  
+}
