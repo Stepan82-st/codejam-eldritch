@@ -1,4 +1,7 @@
 body {
+  margin: 0;
+  padding: 0;
+  max-width: 1920px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -18,15 +21,24 @@ img {
 * {
   box-sizing: border-box;
 }
-body{
-  max-width: 1920px;
-}
+
 .conteiner{
-  max-width: 1920px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  min-width: 1920px;
   height: 1080px;
-  background: url('./assets/home.png');
+  background: url('../../assets/home.png');
   margin: 0 auto;
 }
-.leave-one{
-width: 100px;  
+.leave{
+width: 243px; 
+min-height: 324px; 
+padding: 1rem;
+margin: 1rem;
+cursor: pointer;
+}
+.leave:hover{
+  box-shadow: 0 0 10px rgba(132, 229, 233, 0.5);
 }
