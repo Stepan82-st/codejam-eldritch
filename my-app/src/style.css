@@ -32,13 +32,43 @@ img {
   background: url('../../assets/home.png');
   margin: 0 auto;
 }
-.leave{
+.maps{
 width: 243px; 
 min-height: 324px; 
 padding: 1rem;
 margin: 1rem;
 cursor: pointer;
 }
-.leave:hover{
+.maps:hover{
   box-shadow: 0 0 10px rgba(132, 229, 233, 0.5);
+}
+.btn-leave{
+  visibility:hidden;
+  border-color: #e6c300;
+  border: 5px;
+  border-radius: 1rem;
+  width: 160px;
+  height: 50px;
+  color: #e6c300;
+  font-size: 32px;
+  padding: 0;
+  margin: 1rem;
+}
+.btn-leave:hover{
+  background-color: aqua;
+}
+.randome-coloda{
+  visibility: hidden;
+  border-color: #e6c300;
+  border: 5px;
+  border-radius: 1rem;
+  width: 260px;
+  height: 50px;
+  color: #e6c300;
+  font-size: 28px;
+  padding: 0;
+  margin: 1rem;
+}
+.active{
+  visibility:visible;
 }
