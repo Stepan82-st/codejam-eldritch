@@ -4,7 +4,7 @@ body {
   font-size: 18px;
   color: rgb(0, 0, 0);
   text-align: center;
-  background-image: url("../../assets/home.png");
+  background-image: url("./assets/home.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
