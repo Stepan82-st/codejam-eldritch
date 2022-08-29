@@ -5,7 +5,9 @@
   "name": "my-app",
   "scripts": {
     "start": "rss-scripts start",
-    "build": "rss-scripts build"
+    "build": "rss-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "rss-scripts": "^0.2.4"
