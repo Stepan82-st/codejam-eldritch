@@ -38,7 +38,7 @@ body {
 .Azathoth {
   cursor: pointer;
   border: 3px solid #000;
-  background-image: url("../../assets/Ancients/Azathoth.png");
+  background-image: url("./assets/Ancients/Azathoth.png");
   background-size: contain;
   background-repeat: no-repeat;
   border-radius: 5px;
@@ -50,7 +50,7 @@ body {
 .Cthulthu {
   cursor: pointer;
   border: 3px solid #000;
-  background-image: url("../../assets/Ancients/Cthulthu.png");
+  background-image: url("./assets/Ancients/Cthulthu.png");
   background-size: contain;
   background-repeat: no-repeat;
   border-radius: 5px;
@@ -62,7 +62,7 @@ body {
 .IogSothoth {
   cursor: pointer;
   border: 3px solid #000;
-  background-image: url("../../assets/Ancients/IogSothoth.png");
+  background-image: url("./assets/Ancients/IogSothoth.png");
   background-size: contain;
   background-repeat: no-repeat;
   border-radius: 5px;
@@ -74,7 +74,7 @@ body {
 .ShubNiggurath {
   cursor: pointer;
   border: 3px solid #000;
-  background-image: url("../../assets/Ancients/ShubNiggurath.png");
+  background-image: url("./assets/Ancients/ShubNiggurath.png");
   background-size: contain;
   background-repeat: no-repeat;
   border-radius: 5px;
@@ -244,7 +244,7 @@ body {
 .deck {
   display: flex;
   width: 200px;
-  background-image: url("../../assets/mythicCardBackground.png");
+  background-image: url("./assets/mythicCardBackground.png");
   background-size: contain;
   background-repeat: no-repeat;
   cursor: pointer;
@@ -270,23 +270,6 @@ body {
   justify-content: space-between;
   height: 50px;
   margin: 0 20px;
-}
-
-.git {
-  width: 121px;
-  height: 45px;
-  background-image: url('../../assets/github.svg');
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.rss {
-  width: 121px;
-  height: 45px;
-  background-image: url('../../assets/rs_school_js.svg');
-  filter: invert(1);
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 @media (max-width: 700px) {
