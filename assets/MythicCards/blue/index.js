@@ -11,7 +11,7 @@ import blue10 from './blue10.png';
 import blue11 from './blue11.png';
 import blue12 from './blue12.png';
 
-const cards = {
+const cards = [
   blue1,
   blue2,
   blue3,
@@ -24,6 +24,6 @@ const cards = {
   blue10,
   blue11,
   blue12,
-}
+];
 
 export default cards
