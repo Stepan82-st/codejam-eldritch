@@ -1,4 +1,4 @@
-# (codejam)[ https://stepan82-st.github.io/codejam-eldritch/]
+# [codejam](https://stepan82-st.github.io/codejam-eldritch/)
 # Eldritch Horror Codejam
 
 ## Описание проекта
